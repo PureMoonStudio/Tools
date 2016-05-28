@@ -1,0 +1,9 @@
+用Shell("c:\aaaa\bbbb.exe",1)
+shell函数的参数如下：
+缺省情况下，就会出现你说的那样
+vbHide 0 窗口被隐藏，且焦点会移到隐式窗口。 
+VbNormalFocus 1 窗口具有焦点，且会还原到它原来的大小和位置。 
+VbMinimizedFocus 2 窗口会以一个具有焦点的图标来显示。 
+VbMaximizedFocus 3 窗口是一个具有焦点的最大化窗口。 
+VbNormalNoFocus 4 窗口会被还原到最近使用的大小和位置，而当前活动的窗口仍然保持活动。 
+VbMinimizedNoFocus 6 窗口会以一个图标来显示。而当前活动的的窗口仍然保持活动。

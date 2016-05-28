@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacMan" Collapsed="true">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAAAAoAAAEICAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>GObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enermy" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAQAAAgAAAAAAAAAAAAAAAACBAAAAiAAAAAA=</HashCode>
+      <FileName>GObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedOne" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAACAAAAAA=</HashCode>
+      <FileName>GObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlueOne" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>GObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YellowOne" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>GObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GObject" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACEAIAAAgAAgACQAKAAEAAEKwAgABAAAQAAgAA=</HashCode>
+      <FileName>GObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
