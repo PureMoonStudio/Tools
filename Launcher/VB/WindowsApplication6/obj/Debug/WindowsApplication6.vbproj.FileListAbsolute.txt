@@ -1,0 +1,20 @@
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\bin\Debug\WindowsApplication6.exe.config
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\bin\Debug\WindowsApplication6.exe
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\bin\Debug\WindowsApplication6.pdb
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\bin\Debug\WindowsApplication6.xml
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\obj\Debug\WindowsApplication6.Form1.resources
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\obj\Debug\WindowsApplication6.Resources.resources
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\obj\Debug\WindowsApplication6.vbproj.GenerateResource.Cache
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\obj\Debug\WindowsApplication6.exe
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\obj\Debug\WindowsApplication6.xml
+C:\Users\Admin\documents\visual studio 2013\Projects\WindowsApplication6\WindowsApplication6\obj\Debug\WindowsApplication6.pdb
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\bin\Debug\WindowsApplication6.exe.config
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\obj\Debug\WindowsApplication6.exe
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\obj\Debug\WindowsApplication6.xml
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\obj\Debug\WindowsApplication6.pdb
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\bin\Debug\WindowsApplication6.exe
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\bin\Debug\WindowsApplication6.pdb
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\bin\Debug\WindowsApplication6.xml
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\obj\Debug\WindowsApplication6.Form1.resources
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\obj\Debug\WindowsApplication6.Resources.resources
+C:\Users\TZY\Documents\GitHub\Tools-\源码\启动器\VB\WindowsApplication6\obj\Debug\WindowsApplication6.vbproj.GenerateResource.Cache
