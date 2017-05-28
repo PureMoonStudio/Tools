@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\下载组件\HttpDownloader\HttpDownloader.cpp">
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="..\..\Download component\HttpDownloader\HttpDownloader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

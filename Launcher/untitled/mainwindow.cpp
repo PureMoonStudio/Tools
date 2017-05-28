@@ -28,12 +28,12 @@ void MainWindow::on_pushButton_4_clicked()
 
 void MainWindow::on_pushButton_5_clicked()
 {
-    system("start SF//CLMencryption.exe ");
+    system("start SF//Mencryption.exe");
 }
 
 void MainWindow::on_pushButton_6_clicked()
 {
-     system("start SF//BUG.exe ");
+     system("start https://www.p-m.studio/ ");
 }
 
 void MainWindow::on_pushButton_7_clicked()
@@ -48,7 +48,7 @@ void MainWindow::on_pushButton_8_clicked()
 
 void MainWindow::on_pushButton_9_clicked()
 {
-    system("start Kill//Killer.exe ");
+    system("start Kill//untitled4.exe");
 }
 
 void MainWindow::on_pushButton_10_clicked()
@@ -138,5 +138,5 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_21_clicked()
 {
-    system("start https://github.com/PrivateO/Tools-");
+    system("start https://github.com/PureMoonStudio/Tools");
 }

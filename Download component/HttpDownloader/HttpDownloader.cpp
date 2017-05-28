@@ -38,7 +38,7 @@ CHttpDownloader::~CHttpDownloader()
  日期     版本 作者    内容
  13-01-16 1.0  Joeson  创建
 *******************************************************************************/
-bool CHttpDownloader::Connect( char const *szServer, int nPort /*= 80*/, char const *szUser /*= NULL*/, char const *szPw /*= NULL*/ )
+bool CHttpDownloader::Connect(char const *szServer, int nPort /*= 80*/, char const *szUser /*= NULL*/, char const *szPw /*= NULL*/)
 {
     assert(NULL != szServer && 0 != nPort);
 

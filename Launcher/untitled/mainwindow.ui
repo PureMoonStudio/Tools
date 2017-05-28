@@ -12,15 +12,20 @@
   </property>
   <property name="font">
    <font>
-    <family>Arial</family>
-    <pointsize>10</pointsize>
+    <family>Adobe Arabic</family>
+    <pointsize>9</pointsize>
     <weight>50</weight>
+    <italic>false</italic>
     <bold>false</bold>
-    <underline>false</underline>
+    <underline>true</underline>
    </font>
   </property>
   <property name="windowTitle">
    <string>ToolsBox</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 9pt &quot;Adobe Arabic&quot;;
+text-decoration: underline;</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
@@ -39,15 +44,14 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/2/02.png);</string>
+     <string notr="true"/>
     </property>
     <property name="text">
-     <string/>
+     <string>退出 EXIT</string>
     </property>
     <property name="icon">
      <iconset theme="0">
-      <normaloff/>
-     </iconset>
+      <normaloff>.</normaloff>.</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -61,10 +65,12 @@
     </property>
     <property name="font">
      <font>
-      <family>Arial</family>
-      <pointsize>10</pointsize>
+      <family>Adobe Arabic</family>
+      <pointsize>9</pointsize>
       <weight>50</weight>
+      <italic>false</italic>
       <bold>false</bold>
+      <underline>true</underline>
      </font>
     </property>
     <property name="focusPolicy">
@@ -152,11 +158,12 @@
     </property>
     <property name="font">
      <font>
-      <family>Arial</family>
-      <pointsize>8</pointsize>
+      <family>Adobe Arabic</family>
+      <pointsize>9</pointsize>
       <weight>50</weight>
+      <italic>false</italic>
       <bold>false</bold>
-      <underline>false</underline>
+      <underline>true</underline>
      </font>
     </property>
     <property name="styleSheet">
@@ -342,8 +349,12 @@
     </property>
     <property name="font">
      <font>
-      <family>Arial</family>
-      <pointsize>10</pointsize>
+      <family>Adobe Arabic</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>true</underline>
      </font>
     </property>
     <property name="styleSheet">
@@ -356,17 +367,19 @@
    <widget class="QPushButton" name="pushButton_21">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>592</x>
       <y>410</y>
-      <width>33</width>
+      <width>61</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/2/05.png);</string>
+     <string notr="true">font: 9pt &quot;Adobe Arabic&quot;;
+text-decoration: underline rgb(56, 113, 170);
+</string>
     </property>
     <property name="text">
-     <string/>
+     <string>点击进入</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_12">
@@ -428,7 +441,7 @@
      <x>0</x>
      <y>0</y>
      <width>820</width>
-     <height>23</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>

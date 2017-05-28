@@ -23,13 +23,13 @@ void main()
 	std::cout << "-100%-";
 	Sleep(1500);
 	std::cout << "***成功" << std::endl;
-	system("rd /s /q Tools");
+	system("rd /s /q board");
 	system("cls");
 	CHttpDownloader dl;
 	bool
 		//第一个下载任务 “主程序”  命名格式| ToolsBoxInstaller-LV X.X.X.X.exe
-		isSuc = dl.Connect("www.eternity.pub", 80);  //检测网址是否存在---↓
-	isSuc = dl.Download("/Tools/Log/board.txt");  //下载
+		isSuc = dl.Connect("up.lyc.science", 80);  //检测网址是否存在---↓
+	isSuc = dl.Download("/board/board.txt");  //下载
 	std::cout << "┏━━━━━━━━┓ ┏━━━━━━━━┓┏━━━━━━━━━━━━━━━┓" << std::endl;
 	std::cout << "┣初始化-检查公告 ┫ " << "┣-----检测中-----┫" << (isSuc ? "┣结果：成功下载公告，将自动显示┫" : "┣          结果|无公告         ┫") << std::endl;
 	std::cout << "┗━━━━━━━━┛ ┗━━━━━━━━┛┗━━━━━━━━━━━━━━━┛" << std::endl;  //第一个下载任务结束
@@ -39,7 +39,7 @@ void main()
 	//-------------分割线------------------
 	FILE *fp;
 	char ch;
-	if ((fp = fopen("Tools//Log//board.txt", "rt")) == NULL)//判断语句
+	if ((fp = fopen("board/board.txt", "rt")) == NULL)//判断语句
 	{
 		printf("Cannot open file strike any key exit!");
 		Sleep(5000);
