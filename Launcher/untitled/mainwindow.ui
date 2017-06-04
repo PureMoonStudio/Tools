@@ -24,8 +24,7 @@
    <string>ToolsBox</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">font: 9pt &quot;Adobe Arabic&quot;;
-text-decoration: underline;</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
@@ -36,6 +35,16 @@ text-decoration: underline;</string>
       <width>75</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="cursor">
      <cursorShape>ArrowCursor</cursorShape>
@@ -66,11 +75,7 @@ text-decoration: underline;</string>
     <property name="font">
      <font>
       <family>Adobe Arabic</family>
-      <pointsize>9</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-      <underline>true</underline>
+      <underline>false</underline>
      </font>
     </property>
     <property name="focusPolicy">
@@ -104,6 +109,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>关闭高危端口</string>
     </property>
@@ -116,6 +127,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>加密工具</string>
@@ -130,6 +147,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>访问官网</string>
     </property>
@@ -142,6 +165,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>提交BUG</string>
@@ -159,11 +188,11 @@ text-decoration: underline;</string>
     <property name="font">
      <font>
       <family>Adobe Arabic</family>
-      <pointsize>9</pointsize>
+      <pointsize>8</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
-      <underline>true</underline>
+      <underline>false</underline>
      </font>
     </property>
     <property name="styleSheet">
@@ -182,6 +211,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>杀进程</string>
     </property>
@@ -194,6 +229,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>QQ刷屏</string>
@@ -208,6 +249,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>电脑配置</string>
     </property>
@@ -220,6 +267,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border-image: url(:/2/04.PNG);</string>
@@ -237,6 +290,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>计算器</string>
     </property>
@@ -250,6 +309,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>计时器</string>
     </property>
@@ -262,6 +327,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">border-image: url(:/2/04.PNG);</string>
@@ -282,6 +353,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>小时钟</string>
     </property>
@@ -294,6 +371,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>修复QQ掉线</string>
@@ -308,6 +391,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>修复损坏文件</string>
     </property>
@@ -321,6 +410,12 @@ text-decoration: underline;</string>
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>病毒工具箱</string>
     </property>
@@ -333,6 +428,12 @@ text-decoration: underline;</string>
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>视频处理</string>
@@ -354,7 +455,7 @@ text-decoration: underline;</string>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
-      <underline>true</underline>
+      <underline>false</underline>
      </font>
     </property>
     <property name="styleSheet">
@@ -373,9 +474,18 @@ text-decoration: underline;</string>
       <height>20</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font: 9pt &quot;Adobe Arabic&quot;;
-text-decoration: underline rgb(56, 113, 170);
+     <string notr="true">
 </string>
     </property>
     <property name="text">
@@ -391,6 +501,12 @@ text-decoration: underline rgb(56, 113, 170);
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>俄罗斯方块</string>
     </property>
@@ -403,6 +519,12 @@ text-decoration: underline rgb(56, 113, 170);
       <width>91</width>
       <height>26</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
     </property>
     <property name="text">
      <string>五子棋</string>
@@ -417,6 +539,12 @@ text-decoration: underline rgb(56, 113, 170);
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
      <string>吃豆豆</string>
     </property>
@@ -430,6 +558,17 @@ text-decoration: underline rgb(56, 113, 170);
       <height>26</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Adobe Arabic</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
     <property name="text">
      <string>公告板</string>
     </property>
@@ -441,7 +580,7 @@ text-decoration: underline rgb(56, 113, 170);
      <x>0</x>
      <y>0</y>
      <width>820</width>
-     <height>20</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>
