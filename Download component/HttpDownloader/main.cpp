@@ -14,15 +14,6 @@ void main()
 		CONSOLE_CURSOR_INFO cursor_info = { 1, 0 };
 		SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursor_info);
 	}
-	std::cout << "连接服务器-25%-";
-	Sleep(1500);
-	std::cout << "-50%-";
-	Sleep(1500);
-	std::cout << "-75%-";
-	Sleep(1500);
-	std::cout << "-100%-";
-	Sleep(1500);
-	std::cout << "***成功" << std::endl;
 	//system("rd /s /q Tools");
 	system("cls");
 	printf("请耐心等待...");
@@ -31,8 +22,8 @@ void main()
     CHttpDownloader dl;
     bool
 		//第一个下载任务 “主程序”  命名格式| ToolsBoxInstaller-LV X.X.X.X.exe
-		isSuc = dl.Connect("www.eternity.pub", 80);  //检测网址是否存在---↓
-	isSuc = dl.Download("/Tools/tool/ToolsBoxInstallerLV1.1.4.exe");  //下载
+		isSuc = dl.Connect("toolsbox.p-m.studio", 80);  //检测网址是否存在---↓
+	isSuc = dl.Download("/ToolsBoxInstaller-LV 1.1.4.exe");  //下载
 	std::cout << "┏━━━━━━━━┓ ┏━━━━━━━━┓┏━━━━━━━━━━━━━━━┓" << std::endl;
 	std::cout << "┣初始化-检查更新 ┫ " << "┣-----检测中-----┫" << (isSuc ? "┣结果：成功下载更新，将自动安装┫" : "┣          结果|无更新         ┫") << std::endl;
 	std::cout << "┗━━━━━━━━┛ ┗━━━━━━━━┛┗━━━━━━━━━━━━━━━┛" << std::endl;  //第一个下载任务结束
@@ -41,8 +32,8 @@ void main()
 	std::cout << "▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼" << std::endl;
 	//-------------分割线------------------
 	//第二个下载任务 “更新记录” 命名格式| UpdataLog-LV X.X.X.X.txt  
-	isSuc = dl.Connect("www.eternity.pub", 80);  //检测网址是否存在---↓
-	isSuc = dl.Download("/Tools/Log/UpdataLogLV1.1.4.txt"); //下载
+	isSuc = dl.Connect("toolsbox.p-m.studio", 80);  //检测网址是否存在---↓
+	isSuc = dl.Download("/toolsbox/UpdataLogLV1.1.4.txt"); //下载
 	std::cout << "┏━━━━━━━━┓ ┏━━━━━━━━┓┏━━━━━━━━━━━━━━━┓" << std::endl;
 	std::cout << "┣初始化-检测日志 ┫ " << "┣-----检测中-----┫" << (isSuc ? "┣结果：成功下载日志，将自动打开┫" : "┣          结果|无日志         ┫") << std::endl;
 	std::cout << "┗━━━━━━━━┛ ┗━━━━━━━━┛┗━━━━━━━━━━━━━━━┛" << std::endl;  //第一个下载任务结束

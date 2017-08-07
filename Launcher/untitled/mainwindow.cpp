@@ -33,7 +33,7 @@ void MainWindow::on_pushButton_5_clicked()
 
 void MainWindow::on_pushButton_6_clicked()
 {
-     system("start SF//BUG.exe ");
+     system("start http://toolsbox.p-m.studio/");
 }
 
 void MainWindow::on_pushButton_7_clicked()

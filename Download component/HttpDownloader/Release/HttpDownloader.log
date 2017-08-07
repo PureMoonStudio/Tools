@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/8/3 18:24:45。
+     1>项目“C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\HttpDownloader.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet HttpDownloader.cpp main.cpp
+         HttpDownloader.cpp
+         main.cpp
+         正在运行 C/C++ 代码分析...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\Release\HttpDownloader.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\Release\HttpDownloader.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\Release\HttpDownloader.lib" /MACHINE:X86 /SAFESEH Release\HttpDownloader.obj
+         Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         HttpDownloader.vcxproj -> C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\Release\HttpDownloader.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\Release\HttpDownloader.bsc" /n Release\HttpDownloader.sbr Release\main.sbr
+     1>已完成生成项目“C:\Users\TZY\Documents\GitHub\Tools\Download component\HttpDownloader\HttpDownloader.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.68

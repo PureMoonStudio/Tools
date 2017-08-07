@@ -56,7 +56,7 @@ Q1:
 	printf("13.计算物体在水中的压强\n");
 	printf("14.计算物体动能\n");
 	printf("请输入你的选项并摁回车确认：");
-	short num;
+	long int num;
 	cin >> num;
 	switch (num)
 	{
@@ -300,7 +300,7 @@ Q1:
 		  C8:
 			  float a2, b2, c2;
 			  printf("请输入两个直角边数值:\n");
-			  printf("比如:a b\n");
+			  printf("比如:3 4\n");
 			  scanf("%f%f", &a2, &b2);
 			  c2 = hypot(a2, b2);
 			  printf("斜边是:%5.2f\n", c2);
@@ -327,10 +327,14 @@ Q1:
 	case 9:
 	{
 		  C9:
-			  printf("输入3条边长计算面积\n");
 			  float a2, b, c;
 			  float s, area;
-			  scanf("%f,%f,%f", &a2, &b, &c);
+			  printf("输入第1条边长：\n");
+			  cin >> a2;
+			  printf("输入第2条边长：\n");
+			  cin >> b;
+			  printf("输入第3条边长：\n");
+			  cin >> c;
 			  if (a2 + b > c && b + c > a2 && a2 + c > b)
 			  {
 				  s = (a2 + b + c) / 2;
@@ -363,7 +367,7 @@ Q1:
 			  }
 			  else if (a1 == 3)
 			  {
-				  system("exit");
+				  system("pause");
 			  }
 			  break;
 	case 10:
@@ -385,7 +389,7 @@ Q1:
 					   printf("%f\n", a / b);
 				   break;
 			   default:printf("Input error! \n");
-				   printf("输入1接着运用使用海伦公式计算面积，输入2返回上级菜单，输入3退出程序。\n");
+				   printf("输入1接着运用使计算器，输入2返回上级菜单，输入3退出程序。\n");
 				   printf("请输入你的选项并摁回车确认：");
 				   int a;
 				   cin >> a;
@@ -493,7 +497,7 @@ Q1:
 				   printf("g取值9.8成功！");
 				   Sleep(1000);
 				   system("cls");
-				   float g = 9.8;
+				   double g = 9.8;
 				   printf("请输入物体浸入液体深度(M)：\n");
 				   long double h;
 				   cin >> h;
