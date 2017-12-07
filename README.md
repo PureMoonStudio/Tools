@@ -1,10 +1,10 @@
 # Tools
-ÇáÁ¿¼¶¹¤¾ßÏäLightweight Toolbox
+è½»é‡çº§å·¥å…·ç®±Lightweight Toolbox
 
-# ¸ĞĞ»/Acknowledgements
+# æ„Ÿè°¢/Acknowledgements
 |  Name  |  Website  |
 |--------|----------:|
 |Game Part|[BaiduTieba](http://tieba.baidu.com/c++)|
-|Downloader|[]()|
-|Video Processing Section|[]()|
-*²¿·Ö´úÂë³ö´¦ÒÑ¾­ÎŞ·¨¿¼¾¿£¬ÈôÓĞÈË·¢ÏÖ£¬Çë¼°Ê±¸æËßÎÒÃÇ£¡Ğ»Ğ»!*
+|Downloader|[CSDN](https://www.csdn.net/)|
+|Video Processing Section|[FFmpge](http://ffmpeg.org/)|
+*éƒ¨åˆ†ä»£ç å‡ºå¤„å·²ç»æ— æ³•è€ƒç©¶ï¼Œè‹¥æœ‰äººå‘ç°ï¼Œè¯·åŠæ—¶å‘Šè¯‰æˆ‘ä»¬ï¼è°¢è°¢!*
